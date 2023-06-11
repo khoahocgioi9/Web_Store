@@ -1,0 +1,71 @@
+.signup{
+    justify-content: left;
+    gap: 50px;
+    padding: 20px;
+    h4{
+        font: inherit;
+        font-weight: 500;
+    }
+
+    .form{
+        display: flex;
+        justify-content: flex-start;
+
+        .left{
+            width: 25%;
+            .item{
+                margin-top: 10px;
+    
+                input{
+                    width: 70%;
+                    height: 50px;
+                    border-style: none none solid none;
+                    border-width: 1px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .right{
+            width: 25%;
+            .item{
+                margin-top: 10px;
+    
+                input{
+                    width: 70%;
+                    height: 50px;
+                    border-style: none none solid none;
+                    border-width: 1px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+    }
+
+    .checkbox{
+        
+        display: block;
+        position: relative;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 15px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        .item{
+            display: flex;
+            margin-top: 10px;
+            input{
+                
+            }
+        }
+    }
+
+
+    button{
+        width: 20%;
+        height: 50px;
+    }
+}

@@ -6,7 +6,8 @@ export const data = [
       title: "Product 1",
       isNew: true,
       oldPrice: 19,
-      price: 12,
+      price: 122,
+      desc: "áo dài đen ",
     },
     {
       id: 2,
@@ -14,7 +15,8 @@ export const data = [
       title: "Product 2",
       isNew: true,
       oldPrice: 19,
-      price: 12,
+      price: 192,
+      desc: "áo ngắn đen",
     },
     {
       id: 3,
@@ -22,7 +24,8 @@ export const data = [
       title: "Product 3",
       isNew: true,
       oldPrice: 19,
-      price: 12,
+      price: 199,
+      desc: "áo croptop cho nữ",
     },
     {
       id: 4,
@@ -30,7 +33,8 @@ export const data = [
       title: "Product 4",
       isNew: true,
       oldPrice: 19,
-      price: 12,
+      price: 612,
+      desc: "quần pant ống rộng",
     },
   ];
   

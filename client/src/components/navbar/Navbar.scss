@@ -60,6 +60,12 @@
             justify-content: center;
           }
         }
+        .personIcon{
+          position: relative;
+          &:active{
+            color: #000;
+          }
+        }
       }
     }
   }
